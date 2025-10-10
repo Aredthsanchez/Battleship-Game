@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class CL2_Sanchez {
+public class Main {
 
     public static String[][] adminBoard = new String[11][11];
     public static String[][] userBoard = new String[11][11]; // inside the startUserBoard method I use the userBoard global array to add "-" to every index
@@ -139,3 +139,4 @@ public class CL2_Sanchez {
         }
     }
 }
+
